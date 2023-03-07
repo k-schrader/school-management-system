@@ -78,21 +78,7 @@ public int hashCode() {
 }
 
 //Overridden equals method for testing
-//@Override
-//public boolean equals(Object obj) {
-//	if (this.toString().equals(obj.toString())) {
-//		return true;
-//	}
-//	if (obj instanceof Course) {
-//		Course other = (Course) obj;
-//		boolean sameId =(this.cId ==other.getcId());
-//		boolean sameName=(this.cName==other.getcName());
-//		boolean sameInstructor=(this.cInstructorName==other.getcInstructorName());
-//		if(sameId && sameName && sameInstructor)
-//			return true;
-//	}
-//	return false;
-//}
+@Override
 public boolean equals(Object obj) {
     if (obj == this) {
         return true;
